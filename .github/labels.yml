@@ -10,179 +10,190 @@
 
 ###
 ### Areas
-###
-- color: 0bb1ed
+#
+- name: area/conn-manager
+  color: 0bb1ed
   description: "Area: Connection Manager"
-  name: area/conn-manager
-- color: 0bb1ed
+- name: area/connection-bootstrapping
+  color: 0bb1ed
   description: "Area: Connection Bootstrapping"
-  name: area/connection-bootstrapping
-- color: 0bb1ed
+- name: area/nat-traversal
+  color: 0bb1ed
   description: "Area: NAT Traversal"
-  name: area/nat-traversal
-- color: 0bb1ed
+- name: area/peer-routing
+  color: 0bb1ed
   description: "Area: Peer Routing"
-  name: area/peer-routing
-- color: 0bb1ed
+- name: area/content-routing
+  color: 0bb1ed
   description: "Area: Content Routing"
-  name: area/content-routing
-- color: 0bb1ed
+- name: area/discovery
+  color: 0bb1ed
   description: "Area: Discovery"
-  name: area/discovery
-- color: 0bb1ed
+- name: area/identity
+  color: 0bb1ed
   description: "Area: Identity"
-  name: area/identity
-- color: 0bb1ed
+- name: area/multiplexing
+  color: 0bb1ed
   description: "Area: Multiplexing"
-  name: area/multiplexing
-- color: 0bb1ed
+- name: area/negotiation
+  color: 0bb1ed
   description: "Area: Negotiation"
-  name: area/negotiation
-- color: 0bb1ed
+- name: area/peerstore
+  color: 0bb1ed
   description: "Area: Peerstore"
-  name: area/peerstore
-- color: 0bb1ed
+- name: area/pubsub
+  color: 0bb1ed
   description: "Area: Pubsub"
-  name: area/pubsub
-- color: 0bb1ed
+- name: area/circuit-relay
+  color: 0bb1ed
   description: "Area: Circuit Relay"
-  name: area/circuit-relay
-- color: 0bb1ed
+- name: area/secure-channel
+  color: 0bb1ed
   description: "Area: Secure Channel"
-  name: area/secure-channel
-- color: 0bb1ed
+- name: area/transport
+  color: 0bb1ed
   description: "Area: Transport"
-  name: area/transport
-- color: 0bb1ed
-  description: "Area: General"
-  name: area/general
+- name: area/general
+  color: 0bb1ed
+  description: "Area: General"  
 
 ###
 ### Components
-###
-- color: edd17d
+#
+- name: comp/floodsub
+  color: edd17d
   description: "Component: Floodsub"
-  name: comp/floodsub
-- color: edd17d
+- name: comp/gossipsub
+  color: edd17d
   description: "Component: Gossipsub"
-  name: comp/gossipsub
-- color: edd17d
+- name: comp/kad-dht
+  color: edd17d
   description: "Component: Kademlia DHT"
-  name: comp/kad-dht
-- color: edd17d
+- name: comp/noise
+  color: edd17d
   description: "Component: Noise"
-  name: comp/noise
-- color: edd17d
+- name: comp/quic
+  color: edd17d
   description: "Component: QUIC"
-  name: comp/quic
-- color: edd17d
+- name: comp/secio
+  color: edd17d
   description: "Component: SecIO"
-  name: comp/secio
-- color: edd17d
+- name: comp/tcp
+  color: edd17d
   description: "Component: TCP"
-  name: comp/tcp
-- color: edd17d
+- name: comp/tls
+  color: edd17d
   description: "Component: TLS"
-  name: comp/tls
-- color: edd17d
+- name: comp/webrtc
+  color: edd17d
   description: "Component: WebRTC"
-  name: comp/webrtc
-- color: edd17d
+- name: comp/websockets
+  color: edd17d
   description: "Component: WebSockets"
-  name: comp/websockets
-- color: edd17d
-  description: "Component: Yamux"
-  name: comp/yamux
+- name: comp/yamux
+  color: edd17d
+  description: "Component: Yamux"  
 
 ###
 ### Kinds
-###
-- color: c92712
+#
+- name: kind/bug
+  color: c92712
   description: "Kind: Bug"
-  name: kind/bug
-- color: fcf0b5
+- name: kind/improvement
+  color: fcf0b5
   description: "Kind: Improvement"
-  name: kind/improvement
-- color: fcf0b5
+- name: kind/test
+  color: fcf0b5
   description: "Kind: Test"
-  name: kind/test
-- color: fcf0b5
+- name: kind/tracking-issue
+  color: fcf0b5
   description: "Kind: Tracking Issue"
-  name: kind/tracking-issue
-- color: fcf0b5
+- name: kind/question
+  color: fcf0b5
   description: "Kind: Question"
-  name: kind/question
-- color: fcf0b5
+- name: kind/enhancement
+  color: fcf0b5
   description: "Kind: Enhancement"
-  name: kind/enhancement
-- color: fcf0b5
-  description: "Kind: Discussion"
-  name: kind/discussion
+- name: kind/discussion
+  color: fcf0b5
+  description: "Kind: Discussion"  
 
 ###
 ### Difficulties
-###
-- color: b2b7ff
-  name: dif/trivial
-- color: 7886d7
-  name: dif/easy
-- color: 6574cd
-  name: dif/medium
-- color: 5661b3
-  name: dif/hard
-- color: 2f365f
-  name: dif/expert
+#
+- name: dif/trivial
+  color: b2b7ff
+  description: "Can be confidently tackled by newcomers, who are widely unfamiliar with libp2p."
+- name: dif/easy
+  color: 7886d7
+  description: "A prexisting libp2p user should be able to pick this up."
+- name: dif/medium
+  color: 6574cd
+  description: "Prior experience in having developed libp2p modules is likely helpful."
+- name: dif/hard
+  color: 5661b3
+  description: "Suggests that having worked on the specific component affected by this issue is important."
+- name: dif/expert
+  color: 2f365f
+  description: "Requires extensive knowledge of the history, implications, ramifications of the issue, as well as deep understanding of the libp2p stack and experience with systems and network programming."  
 
 ###
 ### Efforts
-###
-- color: e8fffe
-  name: effort/minutes
-- color: a0f0ed
-  name: effort/hours
-- color: 64d5ca
-  name: effort/day
-- color: 4dc0b5
-  name: effort/days
-- color: 38a89d
-  name: effort/week
-- color: 20504f
-  name: effort/weeks
+#
+- name: effort/minutes
+  color: e8fffe
+  description: "Effort: Minutes"
+- name: effort/hours
+  color: a0f0ed
+  description: "Effort: One or Multiple Hours."
+- name: effort/day
+  color: 64d5ca
+  description: "Effort: One Day."
+- name: effort/days
+  color: 4dc0b5
+  description: "Effort: Multiple Days."
+- name: effort/week
+  color: 38a89d
+  description: "Effort: One Week."
+- name: effort/weeks
+  color: 20504f
+  description: "Effort: Multiple Weeks."  
 
 ###
 ### Impacts
-###
-- color: f1f5f8
+#
+- name: impact/regression
+  color: f1f5f8
   description: "Impact: Regression"
-  name: impact/regression
-- color: f1f5f8
+- name: impact/api-breakage
+  color: f1f5f8
   description: "Impact: API Breakage"
-  name: impact/api-breakage
-- color: f1f5f8
+- name: impact/quality
+  color: f1f5f8
   description: "Impact: Quality"
-  name: impact/quality
-- color: f1f5f8
+- name: impact/dx
+  color: f1f5f8
   description: "Impact: Developer Experience"
-  name: impact/dx
-- color: f1f5f8
-  description: "Impact: Test Flakiness"
-  name: impact/test-flakiness
+- name: impact/test-flakiness
+  color: f1f5f8
+  description: "Impact: Test Flakiness"  
 
 ###
 ### Topics
-###
-- color: bf0f73
+#
+- name: topic/interoperability
+  color: bf0f73
   description: "Topic: Interoperability"
-  name: topic/interoperability
-- color: bf0f73
+- name: topic/docs
+  color: bf0f73
   description: "Topic: Documentation"
-  name: topic/docs
-- color: bf0f73
+- name: topic/infra
+  color: bf0f73
   description: "Topic: Infrastructure"
-  name: topic/infra
-- color: bf0f73
-  description: "Topic: Architecture"
-  name: topic/architecture
+- name: topic/architecture
+  color: bf0f73
+  description: "Topic: Architecture"  
 
 ###
 ### Priorities
@@ -198,55 +209,62 @@
 
 ###
 ### Hints
-###
-- color: 0623cc
+#
+- name: hint/good-first-issue
+  color: 0623cc
   description: "Hint: Good First Issue"
-  name: hint/good-first-issue
-- color: 0623cc
+- name: hint/needs-contributor
+  color: 0623cc
   description: "Hint: Needs Contributor"
-  name: hint/needs-contributor
-- color: 0623cc
+- name: hint/needs-participation
+  color: 0623cc
   description: "Hint: Needs Participation"
-  name: hint/needs-participation
-- color: 0623cc
+- name: hint/needs-decision
+  color: 0623cc
   description: "Hint: Needs Decision"
-  name: hint/needs-decision
-- color: 0623cc
+- name: hint/needs-triage
+  color: 0623cc
   description: "Hint: Needs Triage"
-  name: hint/needs-triage
-- color: 0623cc
+- name: hint/needs-analysis
+  color: 0623cc
   description: "Hint: Needs Analysis"
-  name: hint/needs-analysis
-- color: 0623cc
+- name: hint/needs-author-input
+  color: 0623cc
   description: "Hint: Needs Author Input"
-  name: hint/needs-author-input
-- color: 0623cc
+- name: hint/needs-team-input
+  color: 0623cc
   description: "Hint: Needs Team Input"
-  name: hint/needs-team-input
-- color: 0623cc
+- name: hint/needs-community-input
+  color: 0623cc
   description: "Hint: Needs Community Input"
-  name: hint/needs-community-input
-- color: 0623cc
+- name: hint/needs-review
+  color: 0623cc
   description: "Hint: Needs Review"
-  name: hint/needs-review
-- color: 0623cc
-  description: "Hint: Needs Help"
-  name: hint/needs-help
+- name: hint/needs-help
+  color: 0623cc
+  description: "Hint: Needs Help"  
 
 ###
 ### Statuses
-###
-- color: edb3a6
-  name: status/done
-- color: edb3a6
-  name: status/deferred
-- color: edb3a6
-  name: status/in-progress
-- color: edb3a6
-  name: status/blocked
-- color: edb3a6
-  name: status/inactive
-- color: edb3a6
-  name: status/waiting
-- color: edb3a6
-  name: status/rotten
+#
+- name: status/done
+  color: edb3a6
+  description: "Status: Done"
+- name: status/deferred
+  color: edb3a6
+  description: "Status: Deferred"
+- name: status/in-progress
+  color: edb3a6
+  description: "Status: In Progress"
+- name: status/blocked
+  color: edb3a6
+  description: "Status: Blocked"
+- name: status/inactive
+  color: edb3a6
+  description: "Status: Inactive"
+- name: status/waiting
+  color: edb3a6
+  description: "Status: Waiting"
+- name: status/rotten
+  color: edb3a6
+  description: "Status: Rotten"  
