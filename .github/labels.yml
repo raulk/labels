@@ -1,17 +1,12 @@
-## Colors
-#c6e84e #c1f45a #b8d613 yellow
-#92ef92 green
-#dd362a red
-#5b91c6 off blue
-#2a7d93 darkish blue
-#fcf0b5 wheat
-# XX 0bb1ed bright blue
-#ba500e #ce8048 orange
-#6bbf3b 1cef5c bright green
-#bf0f73 bright pink
-#75b72d green
-#40c491 teal
-#9fea8f light green
+## Color palette
+
+# yellows:  c6e84e c1f45a b8d613 fcf0b5
+# greens:   92ef92 6bbf3b 1cef5c 75b72d 9fea8f
+# reds:     dd362a
+# blues:    5b91c6 2a7d93 0bb1ed
+# pinks:    bf0f73
+# oranges:  ba500e ce8048
+# teals:    40c491
 
 ###
 ### Areas
@@ -76,7 +71,7 @@
 ###
 ### Kinds
 ###
-- color: ea1e62
+- color: c92712
   name: kind/bug
 - color: 97f4ca
   name: kind/improvement
@@ -126,15 +121,15 @@
 ###
 ### Impacts
 ###
-- color: 000000
+- color: 3222c9
   name: impact/regression
-- color: 000000
+- color: 3222c9
   name: impact/api-breakage
-- color: 000000
+- color: 3222c9
   name: impact/quality
-- color: 000000
+- color: 3222c9
   name: impact/dx
-- color: 000000
+- color: 3222c9
   name: impact/test-flakiness
 
 ###
@@ -162,43 +157,43 @@
 ###
 ### Hints
 ###
-- color: a5f7f3
+- color: 0623cc
   name: hint/good-first-issue
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-contributor
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-participation
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-decision
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-triage
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-analysis
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-author-input
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-team-input
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-community-input
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-review
-- color: a5f7f3
+- color: 0623cc
   name: hint/needs-help
 
 ###
 ### Statuses
 ###
-- color: 000000
+- color: eab7f7
   name: status/done
-- color: 000000
+- color: eab7f7
   name: status/deferred
-- color: 000000
+- color: eab7f7
   name: status/in-progress
-- color: 000000
+- color: eab7f7
   name: status/blocked
-- color: 000000
+- color: eab7f7
   name: status/inactive
-- color: 000000
+- color: eab7f7
   name: status/waiting
-- color: 000000
+- color: eab7f7
   name: status/rotten
