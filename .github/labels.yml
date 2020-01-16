@@ -78,49 +78,49 @@
 ###
 - color: ea1e62
   name: kind/bug
-- color: 000000
+- color: 97f4ca
   name: kind/improvement
-- color: 000000
+- color: 97f4ca
   name: kind/test
-- color: 000000
+- color: 97f4ca
   name: kind/tracking-issue
-- color: 000000
+- color: 97f4ca
   name: kind/question
-- color: 000000
+- color: 97f4ca
   name: kind/enhancement
-- color: 000000
+- color: 97f4ca
   name: kind/architecture
-- color: 000000
+- color: 97f4ca
   name: kind/discussion
 
 ###
 ### Difficulties
 ###
-- color: 000000
+- color: b2b7ff
   name: dif/trivial
-- color: 000000
+- color: 7886d7
   name: dif/easy
-- color: 000000
+- color: 6574cd
   name: dif/medium
-- color: 000000
+- color: 5661b3
   name: dif/hard
-- color: 000000
+- color: 2f365f
   name: dif/expert
 
 ###
 ### Efforts
 ###
-- color: 000000
+- color: e8fffe
   name: effort/minutes
-- color: 000000
+- color: a0f0ed
   name: effort/hours
-- color: 000000
+- color: 64d5ca
   name: effort/day
-- color: 000000
+- color: 4dc0b5
   name: effort/days
-- color: 000000
+- color: 38a89d
   name: effort/week
-- color: 000000
+- color: 20504f
   name: effort/weeks
 
 ###
