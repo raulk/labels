@@ -3,45 +3,48 @@
 #92ef92 green
 #dd362a red
 #5b91c6 off blue
+#2a7d93 darkish blue
 #fcf0b5 wheat
 # XX 0bb1ed bright blue
 #ba500e #ce8048 orange
-#6bbf3b bright green
+#6bbf3b 1cef5c bright green
 #bf0f73 bright pink
-
+#75b72d green
+#40c491 teal
+#9fea8f light green
 
 ###
 ### Areas
 ###
-- color: 0bb1ed
+- color: 2a7d93
   name: area/conn-manager
-- color: 0bb1ed
+- color: 2a7d93
   name: area/connection-bootstrapping
-- color: 0bb1ed
+- color: 2a7d93
   name: area/nat-traversal
-- color: 0bb1ed
+- color: 2a7d93
   name: area/peer-routing
-- color: 0bb1ed
+- color: 2a7d93
   name: area/content-routing
-- color: 0bb1ed
+- color: 2a7d93
   name: area/discovery
-- color: 0bb1ed
+- color: 2a7d93
   name: area/identity
-- color: 0bb1ed
+- color: 2a7d93
   name: area/multiplexing
-- color: 0bb1ed
+- color: 2a7d93
   name: area/negotiation
-- color: 0bb1ed
+- color: 2a7d93
   name: area/peerstore
-- color: 0bb1ed
+- color: 2a7d93
   name: area/pubsub
-- color: 0bb1ed
+- color: 2a7d93
   name: area/relay
-- color: 0bb1ed
+- color: 2a7d93
   name: area/security-channel
-- color: 0bb1ed
+- color: 2a7d93
   name: area/transport
-- color: 0bb1ed
+- color: 2a7d93
   name: area/universal
 
 ###
@@ -73,7 +76,7 @@
 ###
 ### Kinds
 ###
-- color: 000000
+- color: ea1e62
   name: kind/bug
 - color: 000000
   name: kind/improvement
@@ -137,49 +140,49 @@
 ###
 ### Topics
 ###
-- color: 000000
+- color: bf0f73
   name: topic/interoperability
-- color: 000000
+- color: bf0f73
   name: topic/docs
-- color: 000000
+- color: bf0f73
   name: topic/infra
 
 ###
 ### Priorities
 ###
-- color: 000000
+- color: dd362a
   name: P0
-- color: 000000
+- color: ce8048
   name: P1
-- color: 000000
+- color: dbd81a
   name: P2
-- color: 000000
+- color: 9fea8f
   name: P3
 
 ###
 ### Hints
 ###
-- color: 000000
+- color: a5f7f3
   name: hint/good-first-issue
-- color: 000000
+- color: a5f7f3
   name: hint/needs-contributor
-- color: 000000
+- color: a5f7f3
   name: hint/needs-participation
-- color: 000000
+- color: a5f7f3
   name: hint/needs-decision
-- color: 000000
+- color: a5f7f3
   name: hint/needs-triage
-- color: 000000
+- color: a5f7f3
   name: hint/needs-analysis
-- color: 000000
+- color: a5f7f3
   name: hint/needs-author-input
-- color: 000000
+- color: a5f7f3
   name: hint/needs-team-input
-- color: 000000
+- color: a5f7f3
   name: hint/needs-community-input
-- color: 000000
+- color: a5f7f3
   name: hint/needs-review
-- color: 000000
+- color: a5f7f3
   name: hint/needs-help
 
 ###
