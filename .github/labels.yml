@@ -1,0 +1,189 @@
+###
+### Areas
+###
+- color: 000000
+  name: area/conn-manager
+- color: 000000
+  name: area/connection-bootstrapping
+- color: 000000
+  name: area/nat-traversal
+- color: 000000
+  name: area/peer-routing
+- color: 000000
+  name: area/content-routing
+- color: 000000
+  name: area/discovery
+- color: 000000
+  name: area/identity
+- color: 000000
+  name: area/multiplexing
+- color: 000000
+  name: area/negotiation
+- color: 000000
+  name: area/peerstore
+- color: 000000
+  name: area/pubsub
+- color: 000000
+  name: area/relay
+- color: 000000
+  name: area/security-channel
+- color: 000000
+  name: area/transport
+- color: 000000
+  name: area/universal
+
+###
+### Components
+###
+- color: 000000
+  name: comp/floodsub
+- color: 000000
+  name: comp/gossipsub
+- color: 000000
+  name: comp/kad-dht
+- color: 000000
+  name: comp/noise
+- color: 000000
+  name: comp/quic
+- color: 000000
+  name: comp/secio
+- color: 000000
+  name: comp/tcp
+- color: 000000
+  name: comp/tls
+- color: 000000
+  name: comp/webrtc
+- color: 000000
+  name: comp/wss
+- color: 000000
+  name: comp/yamux
+
+###
+### Kinds
+###
+- color: 000000
+  name: kind/bug
+- color: 000000
+  name: kind/improvement
+- color: 000000
+  name: kind/test
+- color: 000000
+  name: kind/tracking-issue
+- color: 000000
+  name: kind/question
+- color: 000000
+  name: kind/enhancement
+- color: 000000
+  name: kind/architecture
+- color: 000000
+  name: kind/discussion
+
+###
+### Difficulties
+###
+- color: 000000
+  name: dif/trivial
+- color: 000000
+  name: dif/easy
+- color: 000000
+  name: dif/medium
+- color: 000000
+  name: dif/hard
+- color: 000000
+  name: dif/expert
+
+###
+### Efforts
+###
+- color: 000000
+  name: effort/minutes
+- color: 000000
+  name: effort/hours
+- color: 000000
+  name: effort/day
+- color: 000000
+  name: effort/days
+- color: 000000
+  name: effort/week
+- color: 000000
+  name: effort/weeks
+
+###
+### Impacts
+###
+- color: 000000
+  name: impact/regression
+- color: 000000
+  name: impact/api-breakage
+- color: 000000
+  name: impact/quality
+- color: 000000
+  name: impact/dx
+- color: 000000
+  name: impact/test-flakiness
+
+###
+### Topics
+###
+- color: 000000
+  name: topic/interoperability
+- color: 000000
+  name: topic/docs
+- color: 000000
+  name: topic/infra
+
+###
+### Priorities
+###
+- color: 000000
+  name: P0
+- color: 000000
+  name: P1
+- color: 000000
+  name: P2
+- color: 000000
+  name: P3
+
+###
+### Hints
+###
+- color: 000000
+  name: hint/good-first-issue
+- color: 000000
+  name: hint/needs-contributor
+- color: 000000
+  name: hint/needs-participation
+- color: 000000
+  name: hint/needs-decision
+- color: 000000
+  name: hint/needs-triage
+- color: 000000
+  name: hint/needs-analysis
+- color: 000000
+  name: hint/needs-author-input
+- color: 000000
+  name: hint/needs-team-input
+- color: 000000
+  name: hint/needs-community-input
+- color: 000000
+  name: hint/needs-review
+- color: 000000
+  name: hint/needs-help
+
+###
+### Statuses
+###
+- color: 000000
+  name: status/done
+- color: 000000
+  name: status/deferred
+- color: 000000
+  name: status/in-progress
+- color: 000000
+  name: status/blocked
+- color: 000000
+  name: status/inactive
+- color: 000000
+  name: status/waiting
+- color: 000000
+  name: status/rotten
