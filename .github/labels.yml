@@ -1,7 +1,7 @@
 ###
 ### Areas
 ###
-- color: 000001
+- color: 000000
   name: area/conn-manager
 - color: 000000
   name: area/connection-bootstrapping
