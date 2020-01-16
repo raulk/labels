@@ -12,35 +12,50 @@
 ### Areas
 ###
 - color: 0bb1ed
+  description: "Area: Connection Manager"
   name: area/conn-manager
 - color: 0bb1ed
+  description: "Area: Connection Bootstrapping"
   name: area/connection-bootstrapping
 - color: 0bb1ed
+  description: "Area: NAT Traversal"
   name: area/nat-traversal
 - color: 0bb1ed
+  description: "Area: Peer Routing"
   name: area/peer-routing
 - color: 0bb1ed
+  description: "Area: Content Routing"
   name: area/content-routing
 - color: 0bb1ed
+  description: "Area: Discovery"
   name: area/discovery
 - color: 0bb1ed
+  description: "Area: Identity"
   name: area/identity
 - color: 0bb1ed
+  description: "Area: Multiplexing"
   name: area/multiplexing
 - color: 0bb1ed
+  description: "Area: Negotiation"
   name: area/negotiation
 - color: 0bb1ed
+  description: "Area: Peerstore"
   name: area/peerstore
 - color: 0bb1ed
+  description: "Area: Pubsub"
   name: area/pubsub
 - color: 0bb1ed
-  name: area/relay
+  description: "Area: Circuit Relay"
+  name: area/circuit-relay
 - color: 0bb1ed
-  name: area/security-channel
+  description: "Area: Secure Channel"
+  name: area/secure-channel
 - color: 0bb1ed
+  description: "Area: Transport"
   name: area/transport
 - color: 0bb1ed
-  name: area/universal
+  description: "Area: General"
+  name: area/general
 
 ###
 ### Components
