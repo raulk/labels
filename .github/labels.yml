@@ -1,61 +1,73 @@
+## Colors
+#c6e84e #c1f45a #b8d613 yellow
+#92ef92 green
+#dd362a red
+#5b91c6 off blue
+#fcf0b5 wheat
+# XX 0bb1ed bright blue
+#ba500e #ce8048 orange
+#6bbf3b bright green
+#bf0f73 bright pink
+
+
 ###
 ### Areas
 ###
-- color: 000000
+- color: 0bb1ed
   name: area/conn-manager
-- color: 000000
+- color: 0bb1ed
   name: area/connection-bootstrapping
-- color: 000000
+- color: 0bb1ed
   name: area/nat-traversal
-- color: 000000
+- color: 0bb1ed
   name: area/peer-routing
-- color: 000000
+- color: 0bb1ed
   name: area/content-routing
-- color: 000000
+- color: 0bb1ed
   name: area/discovery
-- color: 000000
+- color: 0bb1ed
   name: area/identity
-- color: 000000
+- color: 0bb1ed
   name: area/multiplexing
-- color: 000000
+- color: 0bb1ed
   name: area/negotiation
-- color: 000000
+- color: 0bb1ed
   name: area/peerstore
-- color: 000000
+- color: 0bb1ed
   name: area/pubsub
-- color: 000000
+- color: 0bb1ed
   name: area/relay
-- color: 000000
+- color: 0bb1ed
   name: area/security-channel
-- color: 000000
+- color: 0bb1ed
   name: area/transport
-- color: 000000
+- color: 0bb1ed
   name: area/universal
 
 ###
 ### Components
 ###
-- color: 000000
+- color: fcf0b5
   name: comp/floodsub
-- color: 000000
+- color: fcf0b5
   name: comp/gossipsub
-- color: 000000
+- color: fcf0b5
   name: comp/kad-dht
-- color: 000000
+- color: fcf0b5
   name: comp/noise
-- color: 000000
+- color: fcf0b5
   name: comp/quic
-- color: 000000
+- color: fcf0b5
   name: comp/secio
-- color: 000000
+- color: fcf0b5
   name: comp/tcp
-- color: 000000
+- color: fcf0b5
   name: comp/tls
-- color: 000000
+- color: fcf0b5
   name: comp/webrtc
-- color: 000000
+- color: fcf0b5
   name: comp/wss
-- color: 000000
+- color: fcf0b5
   name: comp/yamux
 
 ###
