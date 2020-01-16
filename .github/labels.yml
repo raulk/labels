@@ -136,7 +136,7 @@
   description: "Suggests that having worked on the specific component affected by this issue is important."
 - name: dif/expert
   color: 2f365f
-  description: "Requires extensive knowledge of the history, implications, ramifications of the issue, as well as deep understanding of the libp2p stack and experience with systems and network programming."  
+  description: "Requires extensive knowledge of the history, implications, ramifications of the issue."  
 
 ###
 ### Efforts
@@ -198,14 +198,18 @@
 ###
 ### Priorities
 ###
-- color: dd362a
-  name: P0
-- color: ce8048
-  name: P1
-- color: dbd81a
-  name: P2
-- color: 9fea8f
-  name: P3
+- name: P0
+  color: dd362a
+  description: "P0: Critical. This is a blocker. Drop everything else."
+- name: P1
+  color: ce8048
+  description: "P1: Must be fixed."
+- name: P2
+  color: dbd81a
+  description: "P2: Should be fixed."
+- name: P3
+  color: 9fea8f
+  description: "P3: Might get fixed."
 
 ###
 ### Hints
