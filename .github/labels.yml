@@ -1,7 +1,7 @@
 ## Color palette
 
-# yellows:  c6e84e c1f45a b8d613 fcf0b5
-# greens:   92ef92 6bbf3b 1cef5c 75b72d 9fea8f
+# yellows:  dba355 d8a038 d8bd36 edd17d
+# greens:   92ef92 6bbf3b 1cef5c 75b72d 9fea8f c6e84e c1f45a b8d613 fcf0b5 
 # reds:     dd362a
 # blues:    5b91c6 2a7d93 0bb1ed
 # pinks:    bf0f73
@@ -11,61 +11,61 @@
 ###
 ### Areas
 ###
-- color: 2a7d93
+- color: 0bb1ed
   name: area/conn-manager
-- color: 2a7d93
+- color: 0bb1ed
   name: area/connection-bootstrapping
-- color: 2a7d93
+- color: 0bb1ed
   name: area/nat-traversal
-- color: 2a7d93
+- color: 0bb1ed
   name: area/peer-routing
-- color: 2a7d93
+- color: 0bb1ed
   name: area/content-routing
-- color: 2a7d93
+- color: 0bb1ed
   name: area/discovery
-- color: 2a7d93
+- color: 0bb1ed
   name: area/identity
-- color: 2a7d93
+- color: 0bb1ed
   name: area/multiplexing
-- color: 2a7d93
+- color: 0bb1ed
   name: area/negotiation
-- color: 2a7d93
+- color: 0bb1ed
   name: area/peerstore
-- color: 2a7d93
+- color: 0bb1ed
   name: area/pubsub
-- color: 2a7d93
+- color: 0bb1ed
   name: area/relay
-- color: 2a7d93
+- color: 0bb1ed
   name: area/security-channel
-- color: 2a7d93
+- color: 0bb1ed
   name: area/transport
-- color: 2a7d93
+- color: 0bb1ed
   name: area/universal
 
 ###
 ### Components
 ###
-- color: fcf0b5
+- color: edd17d
   name: comp/floodsub
-- color: fcf0b5
+- color: edd17d
   name: comp/gossipsub
-- color: fcf0b5
+- color: edd17d
   name: comp/kad-dht
-- color: fcf0b5
+- color: edd17d
   name: comp/noise
-- color: fcf0b5
+- color: edd17d
   name: comp/quic
-- color: fcf0b5
+- color: edd17d
   name: comp/secio
-- color: fcf0b5
+- color: edd17d
   name: comp/tcp
-- color: fcf0b5
+- color: edd17d
   name: comp/tls
-- color: fcf0b5
+- color: edd17d
   name: comp/webrtc
-- color: fcf0b5
+- color: edd17d
   name: comp/wss
-- color: fcf0b5
+- color: edd17d
   name: comp/yamux
 
 ###
@@ -73,19 +73,19 @@
 ###
 - color: c92712
   name: kind/bug
-- color: 97f4ca
+- color: fcf0b5
   name: kind/improvement
-- color: 97f4ca
+- color: fcf0b5
   name: kind/test
-- color: 97f4ca
+- color: fcf0b5
   name: kind/tracking-issue
-- color: 97f4ca
+- color: fcf0b5
   name: kind/question
-- color: 97f4ca
+- color: fcf0b5
   name: kind/enhancement
-- color: 97f4ca
+- color: fcf0b5
   name: kind/architecture
-- color: 97f4ca
+- color: fcf0b5
   name: kind/discussion
 
 ###
@@ -121,15 +121,15 @@
 ###
 ### Impacts
 ###
-- color: 3222c9
+- color: f1f5f8
   name: impact/regression
-- color: 3222c9
+- color: f1f5f8
   name: impact/api-breakage
-- color: 3222c9
+- color: f1f5f8
   name: impact/quality
-- color: 3222c9
+- color: f1f5f8
   name: impact/dx
-- color: 3222c9
+- color: f1f5f8
   name: impact/test-flakiness
 
 ###
@@ -183,17 +183,17 @@
 ###
 ### Statuses
 ###
-- color: eab7f7
+- color: edb3a6
   name: status/done
-- color: eab7f7
+- color: edb3a6
   name: status/deferred
-- color: eab7f7
+- color: edb3a6
   name: status/in-progress
-- color: eab7f7
+- color: edb3a6
   name: status/blocked
-- color: eab7f7
+- color: edb3a6
   name: status/inactive
-- color: eab7f7
+- color: edb3a6
   name: status/waiting
-- color: eab7f7
+- color: edb3a6
   name: status/rotten
